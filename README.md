@@ -9,8 +9,7 @@ Free for personal and commercial use under the [CCA 3.0 license](https://html5up
 
 Images:
 
-- pic01 &ndash; [SmartLocker Placeholder](https://unsplash.com/photos/9wWX_jwDHeM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-- pic02 &ndash; [Inferno Placeholder](https://unsplash.com/photos/0aqJNZ5tVBc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+- pic03 &ndash; [SmartLocker Placeholder](https://unsplash.com/photos/9wWX_jwDHeM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 Icons:
 
