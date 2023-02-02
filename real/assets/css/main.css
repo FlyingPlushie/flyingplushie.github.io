@@ -3907,3 +3907,12 @@ input, select, textarea {
 			}
 
 		}
+
+		.video-insert {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.wrapper.vid-con {
+			margin-bottom: 1.5rem;
+		}
