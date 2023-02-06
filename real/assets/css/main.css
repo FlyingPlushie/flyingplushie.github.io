@@ -2907,4 +2907,10 @@ body.is-preload #sidebar nav ul li {
   #intro {
     background-attachment: scroll;
   }
+}
+
+.video-track {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5em;
 }/*# sourceMappingURL=main.css.map */
