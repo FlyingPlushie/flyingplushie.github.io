@@ -22,7 +22,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="psiml.html">PSIML6</a></li>
             <li><a href="buggy.html" class="active">Buggy</a></li>
-            <li><a href="lockers.html">Lockers</a></li>
+            <li><a href="lockers.html">Smart Locker</a></li>
 						<li><a href="video.html">Unity & C#</a></li>
 					</ul>
 				</nav>
@@ -36,8 +36,15 @@
 						<div class="inner">
 							<h1 class="major">Buggy & Artificial Neural Networks</h1>
 							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+              <p>
+                This project is one of my favorites &ndash; it got me interested in artificial intelligence. The idea was &ndash; build the cheapest possible mobile robot and make it move through unstructured 2D space without collisions using artificial neural networks &ndash; ANNs.
+              </p>
+              <p>
+                Three infrared distance sensors proved sufficient when each was mounted facing forward, left and right, away from the robot &ndash; buggy. I made a separate 4-button controller in order to navigate the buggy through specific obstacles and areas while gathering the training data from sensors. Variety of neural networks were trained in MATLAB, their parameters properly formatted and used on the robot's 32-bit ARM microcontroller, programmed in <a href="https://www.mikroe.com/mikroc-pic" target="_blank">mikroC</a>. Roughly 60 variants of trained networks were tested on the robot, where only 5 displayed good performance while moving the robot through unknown 2D space. 
+              </p>
+              <p>
+                Along the way, I learned how to think when applying neural nets, what to look for, what to be wary of and I've finally seen the neural nets as they truly are &ndash; big parameter matrices, obeying the math like everything else. Previously, it was just magic that got mentioned when you run out of analytical solutions. As a bonus, I got the hang of soldering while fabricating the controller.
+              </p>
 						</div>
 					</section>
 
