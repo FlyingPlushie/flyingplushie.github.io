@@ -34,10 +34,23 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Smart Locker &ndash; Unlock via Internet</h1>
+							<h1 class="major">Smart Locker &ndash; Pay & Unlock</h1>
 							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+              <p>
+                A client asked me to create a system that can connect to a server, get a list of users with allocated luggage lockers and grant access to allotted lockers when proper password was entered at the local terminal.
+              </p>
+              <p>
+                I began from scratch, focusing on software, but along the way, due to my subpar negotiation skills at the time, I got dragged into hardware design as well, unnaturally prolonging the duration of the project. The task was too complex to solve on paper,so I learned the <a href="https://www.kicad.org/" target="_blank">KiCad EDA</a> and perfected my soldering skills while fabricating the modules.
+              </p>
+              <p>
+                Raspberry Pi 3 was at the heart of the system, everything else custom tailored to suit the client's needs. I developed several hardware boards to achieve complete functionality &ndash; standard 12V locking/unlocking, extension interfaces for varying number of lockers, separate power supply module, all the while taking into account limited technical prowess of the personnel that will eventually operate the system. I managed to achieve local plug & play usability, with remote service access over Secure Shell (SSH).
+              </p>
+              <p>
+                Language used was Python3. It stuck from the beginning &ndash; I wanted something easy to use, suitable for rapid prototyping and had C++ in mind if my clients prove to be strongly interested past the testing phase, since I was hired to create a working prototype, nothing more.
+              </p>
+              <p>
+                Due to the epidemic, the project got cancelled just before field-testing. Nevertheless, it was a great experience that taught me valuable lessons in dealing with clients, their vague specifications and growing expectations.
+              </p>
 						</div>
 					</section>
 
@@ -47,7 +60,7 @@
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Stefan's Place. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
