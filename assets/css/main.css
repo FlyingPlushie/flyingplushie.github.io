@@ -2908,11 +2908,12 @@ body.is-preload #sidebar nav ul li {
 .video-track {
   max-width: 100%;
   height: auto;
-  margin-bottom: 1.5em;
+  margin: 0;
+  padding: 0;
 }
 
 figcaption {
   font-style: italic;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
 }/*# sourceMappingURL=main.css.map */
